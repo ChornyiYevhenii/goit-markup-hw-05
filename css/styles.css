@@ -812,10 +812,11 @@ nav {
   padding-left: 24px;
   width: 100%;
   height: 100%;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms ease-in;
 }
 
-.portfolio-card-item-link:hover .bigbest-text {
+.portfolio-card-item-link:hover .bigbest-text,
+.portfolio-card-item-link:focus .bigbest-text {
   transform: translate(0);
 }
